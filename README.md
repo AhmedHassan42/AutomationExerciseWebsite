@@ -13,8 +13,7 @@
 ## How to Run the Tests 
 1. **Clone the Repository**: Clone this repository to your local machine.
 2. **Setup Environment**: Ensure you have Java, Maven, and a web browser installed on your machine.
-3. **Install Dependencies**: Run `mvn clean install` to install the necessary dependencies.
-4. **Run the Tests**: Use the TestNG XML file to run the tests
+3. **Run the Tests**: Use the TestNG XML file to run the tests
 mvn test -DsuiteXmlFile=TestRunner/RegressionSuite.xml
 **View Reports**: Generate and view the Allure report:
 allure serve target/TestResults/allure-results
