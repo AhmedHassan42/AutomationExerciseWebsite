@@ -1,0 +1,56 @@
+[INFO] 25-12-2024 18:05:53 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseSelectProduct  started
+[INFO] 25-12-2024 18:05:54 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - SelectProduct Test success
+[INFO] 25-12-2024 18:06:01 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductThumbnailIsDisplayed  started
+[INFO] 25-12-2024 18:06:01 [main] [Pages.P01HomePage.CheckiftheProductImgIsDisplayed(P01HomePage.java:25)] - the product thumbnail is displayed: true
+[INFO] 25-12-2024 18:06:01 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductThumbnailIsDisplayed Test success
+[INFO] 25-12-2024 18:06:08 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseAddProductToCart  started
+[INFO] 25-12-2024 18:06:11 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - AddProductToCart Test success
+[INFO] 25-12-2024 18:06:20 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseCheckIftheProductisInStock  started
+[INFO] 25-12-2024 18:06:22 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - CheckIftheProductisInStock Test success
+[INFO] 25-12-2024 18:06:30 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseClickOnViewCart  started
+[INFO] 25-12-2024 18:06:34 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - ClickOnViewCart Test success
+[INFO] 25-12-2024 18:06:41 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatCalculateTotalPriceInCart  started
+[INFO] 25-12-2024 18:06:45 [main] [Pages.P03ViewCartPage.CalculateTotalPriceIncart(P03ViewCartPage.java:74)] - the product price in cart is 500.0
+[INFO] 25-12-2024 18:06:45 [main] [Pages.P03ViewCartPage.CalculateTotalPriceIncart(P03ViewCartPage.java:75)] - the product total price in cart is 500.0
+[INFO] 25-12-2024 18:06:45 [main] [Pages.P03ViewCartPage.CalculateTotalPriceIncart(P03ViewCartPage.java:76)] - the quantity in cart is 1.0
+[INFO] 25-12-2024 18:06:45 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatCalculateTotalPriceInCart Test success
+[INFO] 25-12-2024 18:06:51 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductIsCorrectInCart  started
+[INFO] 25-12-2024 18:06:53 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 25-12-2024 18:06:56 [main] [Pages.P03ViewCartPage.ProductNameOnCart(P03ViewCartPage.java:42)] - Product name on cart is Blue Top
+[INFO] 25-12-2024 18:06:56 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductIsCorrectInCart Test success
+[INFO] 25-12-2024 18:07:02 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductPriceIsCorrectInCart  started
+[INFO] 25-12-2024 18:07:04 [main] [Pages.P02ProductPage.ProductPrice(P02ProductPage.java:49)] - the product price is 500.0
+[INFO] 25-12-2024 18:07:06 [main] [Pages.P03ViewCartPage.ProductPriceInCart(P03ViewCartPage.java:48)] - the product price in cart is 500.0
+[INFO] 25-12-2024 18:07:06 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductPriceIsCorrectInCart Test success
+[INFO] 25-12-2024 18:07:13 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductQuantityBoxIsEnabled  started
+[INFO] 25-12-2024 18:07:17 [main] [Pages.P03ViewCartPage.CartQuatityIsEnabled(P03ViewCartPage.java:31)] - Quantity Button is disabled
+[INFO] 25-12-2024 18:07:17 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:07:26 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductsDeleteButtonInCart  started
+[INFO] 25-12-2024 18:07:30 [main] [Pages.P03ViewCartPage.CheckProductsIsDeleted(P03ViewCartPage.java:37)] - Products are deleted Successfully
+[INFO] 25-12-2024 18:07:30 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductsDeleteButtonInCart Test success
+[INFO] 25-12-2024 18:09:08 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUnLoginUserCannotRedirectedToCheckout  started
+[INFO] 25-12-2024 18:09:14 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:10:22 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUserRedirectedToLoginPage  started
+[INFO] 25-12-2024 18:10:27 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:10:31 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:10:32 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUserAddValidLoginData  started
+[INFO] 25-12-2024 18:10:32 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatUserAddValidLoginData skipped
+[INFO] 25-12-2024 18:10:38 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseCheckthatuserRedirectedtoPayment  started
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseCheckthatuserRedirectedtoPayment skipped
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatAddressDeliveryIsDisplayed  started
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatAddressDeliveryIsDisplayed skipped
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatBillingAddressIsDisplayed  started
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatBillingAddressIsDisplayed skipped
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductNameIsCorrectInCheckout  started
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatProductNameIsCorrectInCheckout skipped
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductPriceIsCalculatedCorrectly  started
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatProductPriceIsCalculatedCorrectly skipped
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUserCanAddComment  started
+[INFO] 25-12-2024 18:10:39 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatUserCanAddComment skipped
+[INFO] 25-12-2024 18:10:43 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:10:44 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseAddCardDataCredentials  started
+[INFO] 25-12-2024 18:10:44 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseAddCardDataCredentials skipped
+[INFO] 25-12-2024 18:10:48 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 25-12-2024 18:10:49 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatOrderPlacedMessageIsDisplayed  started
+[INFO] 25-12-2024 18:10:49 [main] [Listeners.ITestmethod.onTestSkipped(ITestmethod.java:17)] - Test caseVerifyThatOrderPlacedMessageIsDisplayed skipped

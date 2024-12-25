@@ -1,0 +1,6 @@
+[INFO] 23-12-2024 07:17:16 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 07:17:25 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 07:17:25 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 07:17:25 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the product total price in Checkout is 5000.0
+[INFO] 23-12-2024 07:17:25 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:56)] - the quantity in Checkout is 10.0
+[INFO] 23-12-2024 07:17:25 [main] [Pages.P05CheckoutPage.CheckIfCommentFieldIsEnabled(P05CheckoutPage.java:64)] - Message field is enabled and displayed

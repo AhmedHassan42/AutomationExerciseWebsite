@@ -1,0 +1,5 @@
+[INFO] 23-12-2024 07:01:21 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 07:01:30 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:42)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 07:01:31 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:53)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 07:01:31 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product total price in Checkout is 4500.0
+[INFO] 23-12-2024 07:01:31 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the quantity in Checkout is 9.0

@@ -1,0 +1,84 @@
+[INFO] 23-12-2024 23:42:44 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseSelectProduct  started
+[INFO] 23-12-2024 23:42:45 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - SelectProduct Test success
+[INFO] 23-12-2024 23:42:52 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductThumbnailIsDisplayed  started
+[INFO] 23-12-2024 23:42:53 [main] [Pages.P01HomePage.CheckiftheProductImgIsDisplayed(P01HomePage.java:25)] - the product thumbnail is displayed: true
+[INFO] 23-12-2024 23:42:53 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductThumbnailIsDisplayed Test success
+[INFO] 23-12-2024 23:42:59 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseAddProductToCart  started
+[INFO] 23-12-2024 23:43:01 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - AddProductToCart Test success
+[INFO] 23-12-2024 23:43:08 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseCheckIftheProductisInStock  started
+[INFO] 23-12-2024 23:43:10 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - CheckIftheProductisInStock Test success
+[INFO] 23-12-2024 23:43:16 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseClickOnViewCart  started
+[INFO] 23-12-2024 23:43:19 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - ClickOnViewCart Test success
+[INFO] 23-12-2024 23:43:28 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatCalculateTotalPriceInCart  started
+[INFO] 23-12-2024 23:43:32 [main] [Pages.P03ViewCartPage.CalculateTotalPriceIncart(P03ViewCartPage.java:74)] - the product price in cart is 500.0
+[INFO] 23-12-2024 23:43:32 [main] [Pages.P03ViewCartPage.CalculateTotalPriceIncart(P03ViewCartPage.java:75)] - the product total price in cart is 500.0
+[INFO] 23-12-2024 23:43:32 [main] [Pages.P03ViewCartPage.CalculateTotalPriceIncart(P03ViewCartPage.java:76)] - the quantity in cart is 1.0
+[INFO] 23-12-2024 23:43:32 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatCalculateTotalPriceInCart Test success
+[INFO] 23-12-2024 23:43:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductIsCorrectInCart  started
+[INFO] 23-12-2024 23:43:41 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:43:43 [main] [Pages.P03ViewCartPage.ProductNameOnCart(P03ViewCartPage.java:42)] - Product name on cart is Blue Top
+[INFO] 23-12-2024 23:43:43 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductIsCorrectInCart Test success
+[INFO] 23-12-2024 23:43:50 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductPriceIsCorrectInCart  started
+[INFO] 23-12-2024 23:43:53 [main] [Pages.P02ProductPage.ProductPrice(P02ProductPage.java:49)] - the product price is 500.0
+[INFO] 23-12-2024 23:43:55 [main] [Pages.P03ViewCartPage.ProductPriceInCart(P03ViewCartPage.java:48)] - the product price in cart is 500.0
+[INFO] 23-12-2024 23:43:55 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductPriceIsCorrectInCart Test success
+[INFO] 23-12-2024 23:44:05 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductQuantityBoxIsEnabled  started
+[INFO] 23-12-2024 23:44:09 [main] [Pages.P03ViewCartPage.CartQuatityIsEnabled(P03ViewCartPage.java:31)] - Quantity Button is disabled
+[INFO] 23-12-2024 23:44:09 [main] [Listeners.IInvokedmethod.afterInvocation(IInvokedmethod.java:17)] - Test case failed
+[INFO] 23-12-2024 23:44:15 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductsDeleteButtonInCart  started
+[INFO] 23-12-2024 23:44:19 [main] [Pages.P03ViewCartPage.CheckProductsIsDeleted(P03ViewCartPage.java:37)] - Products are deleted Successfully
+[INFO] 23-12-2024 23:44:19 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductsDeleteButtonInCart Test success
+[INFO] 23-12-2024 23:44:26 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUnLoginUserCannotRedirectedToCheckout  started
+[INFO] 23-12-2024 23:44:29 [main] [Pages.P03ViewCartPage.UnLoginUserCannotProceedToCheckout(P03ViewCartPage.java:62)] - Login to proceed to checkout page is displayed
+[INFO] 23-12-2024 23:44:29 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatUnLoginUserCannotRedirectedToCheckout Test success
+[INFO] 23-12-2024 23:44:36 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUserRedirectedToLoginPage  started
+[INFO] 23-12-2024 23:44:41 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatUserRedirectedToLoginPage Test success
+[INFO] 23-12-2024 23:44:48 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUserAddValidLoginData  started
+[INFO] 23-12-2024 23:44:55 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatUserAddValidLoginData Test success
+[INFO] 23-12-2024 23:45:01 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseCheckthatuserRedirectedtoPayment  started
+[INFO] 23-12-2024 23:45:03 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:45:11 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 23:45:12 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 23:45:12 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the product total price in Checkout is 500.0
+[INFO] 23-12-2024 23:45:12 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:56)] - the quantity in Checkout is 1.0
+[INFO] 23-12-2024 23:45:12 [main] [Pages.P05CheckoutPage.CheckIfCommentFieldIsEnabled(P05CheckoutPage.java:64)] - Message field is enabled and displayed
+[INFO] 23-12-2024 23:45:13 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - CheckthatuserRedirectedtoPayment Test success
+[INFO] 23-12-2024 23:45:19 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatAddressDeliveryIsDisplayed  started
+[INFO] 23-12-2024 23:45:31 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatAddressDeliveryIsDisplayed Test success
+[INFO] 23-12-2024 23:45:39 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatBillingAddressIsDisplayed  started
+[INFO] 23-12-2024 23:45:51 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatBillingAddressIsDisplayed Test success
+[INFO] 23-12-2024 23:45:57 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductNameIsCorrectInCheckout  started
+[INFO] 23-12-2024 23:45:59 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:46:08 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 23:46:08 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductNameIsCorrectInCheckout Test success
+[INFO] 23-12-2024 23:46:14 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatProductPriceIsCalculatedCorrectly  started
+[INFO] 23-12-2024 23:46:16 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:46:24 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 23:46:25 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 23:46:25 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the product total price in Checkout is 2500.0
+[INFO] 23-12-2024 23:46:25 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:56)] - the quantity in Checkout is 5.0
+[INFO] 23-12-2024 23:46:25 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatProductPriceIsCalculatedCorrectly Test success
+[INFO] 23-12-2024 23:46:31 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatUserCanAddComment  started
+[INFO] 23-12-2024 23:46:32 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:46:42 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 23:46:42 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 23:46:42 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the product total price in Checkout is 3000.0
+[INFO] 23-12-2024 23:46:42 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:56)] - the quantity in Checkout is 6.0
+[INFO] 23-12-2024 23:46:42 [main] [Pages.P05CheckoutPage.CheckIfCommentFieldIsEnabled(P05CheckoutPage.java:64)] - Message field is enabled and displayed
+[INFO] 23-12-2024 23:46:42 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatUserCanAddComment Test success
+[INFO] 23-12-2024 23:46:48 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseAddCardDataCredentials  started
+[INFO] 23-12-2024 23:46:50 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:46:59 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 23:47:00 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 23:47:00 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the product total price in Checkout is 3500.0
+[INFO] 23-12-2024 23:47:00 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:56)] - the quantity in Checkout is 7.0
+[INFO] 23-12-2024 23:47:00 [main] [Pages.P05CheckoutPage.CheckIfCommentFieldIsEnabled(P05CheckoutPage.java:64)] - Message field is enabled and displayed
+[INFO] 23-12-2024 23:47:05 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - AddCardDataCredentials Test success
+[INFO] 23-12-2024 23:47:12 [main] [Listeners.ITestmethod.onTestStart(ITestmethod.java:9)] - Test caseVerifyThatOrderPlacedMessageIsDisplayed  started
+[INFO] 23-12-2024 23:47:13 [main] [Pages.P02ProductPage.ProductName(P02ProductPage.java:42)] - the product name is Blue Top
+[INFO] 23-12-2024 23:47:22 [main] [Pages.P05CheckoutPage.ProductNameOnCheckout(P05CheckoutPage.java:43)] - Product name on Checkout is Blue Top
+[INFO] 23-12-2024 23:47:22 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:54)] - the product price in Checkout is 500.0
+[INFO] 23-12-2024 23:47:22 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:55)] - the product total price in Checkout is 500.0
+[INFO] 23-12-2024 23:47:22 [main] [Pages.P05CheckoutPage.CalculateTotalPriceInCheckout(P05CheckoutPage.java:56)] - the quantity in Checkout is 1.0
+[INFO] 23-12-2024 23:47:22 [main] [Pages.P05CheckoutPage.CheckIfCommentFieldIsEnabled(P05CheckoutPage.java:64)] - Message field is enabled and displayed
+[INFO] 23-12-2024 23:47:27 [main] [Listeners.ITestmethod.onTestSuccess(ITestmethod.java:13)] - VerifyThatOrderPlacedMessageIsDisplayed Test success
