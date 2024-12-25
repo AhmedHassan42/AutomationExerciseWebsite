@@ -1,6 +1,6 @@
 # AutomationExerciseWebsite
 # Web Automation for Checkout Process 
-## Introduction This project aims to automate the checkout process on the "https://automationexercise.com/" site. The automated test script follows a data-driven approach and covers the entire user flow, including product selection, adding to the cart, proceeding to checkout, entering shipping and billing information, and completing the order. 
+## Introduction This project aims to automate the checkout process on the "https://automationexercise.com/" site. The automated test script follows a data-driven approach and covers the entire user flow, including product selection, adding to the cart, proceeding to checkout, entering the Login and payment method credentials, and completing the order. 
 ## Tools and Technologies Used 
 - **Selenium WebDriver**: Used for browser automation.
 - **Java**: The programming language used for writing the test scripts.
